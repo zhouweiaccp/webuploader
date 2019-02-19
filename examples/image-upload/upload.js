@@ -490,7 +490,14 @@
             percentages[ file.id ][ 1 ] = percentage;
             updateTotalProgress();
         };
+   uploader.on('uploadAccept', function(obj, ret) {
+            debugger;
+            if (ret.error != undefined && ret.error.code == "-1") {
+                $('#' + obj.file.id).find('p.imgWrap').text(ret.error.message);
+                return false;
+            }
 
+        });
         uploader.onFileQueued = function( file ) {
             fileCount++;
             fileSize += file.size;
