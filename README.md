@@ -49,3 +49,8 @@ WebUploader是一个简单的以HTML5为主，FLASH为辅的现代文件上传�
 采用可拆分机制, 将各个功能独立成了小组件，可自由搭配。
 
 采用AMD规范组织代码，清晰明了，方便高级玩家扩展。
+
+
+### demo
+* [webuploader.suppor](https://github.com/joker-pper/WebUploaderSupport/blob/master/webuploader.support/js/webuploader.support.js) 基于webuploader配置所加强的框架，使用简单,支持多实例,上传个数限定，预览，删除等，可定制度高
+* [webuploaderDemo](git@github.com:kazaff/webuploaderDemo.git)  分片demo
