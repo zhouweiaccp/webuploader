@@ -506,9 +506,10 @@
                 $placeHolder.addClass( 'element-invisible' );
                 $statusBar.show();
             }
-
-            addFile( file );
+showError('2');
+            addFile( file );showError('2');
             setState( 'ready' );
+			showError('23');
             updateTotalProgress();
         };
 
